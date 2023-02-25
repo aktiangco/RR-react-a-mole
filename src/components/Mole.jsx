@@ -9,11 +9,11 @@ const Mole = (props) => {
          // Defining a random number of seconds with random timer
         // Feel free to adjust this number as you see fit.
         // It is your game to tune!
-        let randSeconds = Math.ceil(Math.random() * 2000)
+        let randSeconds = Math.ceil(Math.random() * 4000)
         // declare a variable called timer. This variable will be assigned to a setTimeout()
         let timer = setTimeout(() => {
              // setTimeout() callback should only toggle props.setDisplayMole to false.
-            props.setDisplayMole(false)
+            props.toggle(false)
         }, randSeconds)
          // define a cleanup for our useEffect using clearTimeout(timer)
         return () => clearTimeout(timer)

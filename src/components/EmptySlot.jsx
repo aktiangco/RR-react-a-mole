@@ -6,7 +6,7 @@ const EmptySlot = (props) => {
 // Declaring a use effect with a callback function
     useEffect(() => {
         // Defining a random number of seconds with random timer
-        let randSeconds = Math.ceil(Math.random() * 6000)
+        let randSeconds = Math.ceil(Math.random() * 7000)
         // declare a variable called timer. This variable will be assigned to a setTimeout()
         let timer = setTimeout(() => {
             // setTimeout() callback should only toggle props.displayMole to true.
