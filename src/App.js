@@ -15,7 +15,7 @@ const App = () => {
     for (let i = 0; i < 9; i++) {
       hills.push(
         // Score setup and a key value of "i"
-        <MoleContainer key={i} setScore={setScore} score={score} />
+        <MoleContainer key={i} setScore={setScore} score={score}/>
       )
     }
     return (

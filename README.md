@@ -1,5 +1,22 @@
 # RR-react-a-mole
 
+In this activity, you will develop a React-based Whac-a-Mole game from scratch. You will use all of the concepts learned in this module.
+
+You will:
+
+- Generate components dynamically.
+- Use state to track the score and mole status.
+- Utilize the useEffect hook to govern the mole (component) lifecycle.
+
+## Setup
+
+1. Instantiate a new React app with create-react-app. We will call this project react_a_mole.
+Windows Users: As of Dec. 2021, there is an issue with create-react-app in Windows. If you run npm start with a React app in Git Bash, there will be a path error due to the way Git Bash handles paths. To get around this, you can either use VSCode's terminal, or once you run npm start, open package.json, make a minor change then delete that chance, and save. This will reload the application without errors.
+
+2. Open the generated project and remove the boilerplate code.
+3. You can download image assets at: [https://github.com/HackerUSA-CE/RR-React-A-Mole-Images]
+4. Once the setup is complete, pause and consider all the elements needed for this application. Because we will be dealing with a complex state and unique, dynamically generated components, we want to plan and understand before writing any code.
+
 ## PLanning
 
 First, we will plan the structure of our application. Your application can look however you like, so feel free to style it in any way you see fit. The foundation, however, should follow this structure:
@@ -68,3 +85,11 @@ Once EmptySlot is built, Mole will be easy as well.
 
 - Complete the same steps as above but invert the toggle. The timer should handle setting displayMole back to false. We do not want moles just sitting around waiting to be bopped. They should go back into their holes after a certain amount of time.
 - Afterward, simply render the image of a Mole within a div and give it the onClick behavior of our handleClick property we built on the MoleContainer level. Hopefully, you remembered to ship that function down as a prop.
+
+## Source
+
+Image
+[https://github.com/HackerUSA-CE/RR-React-A-Mole-Images]
+
+Solution Code
+[https://github.com/HackerUSA-CE/RR-React-A-Mole/tree/main/src]
