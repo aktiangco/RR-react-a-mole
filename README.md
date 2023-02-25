@@ -1,6 +1,6 @@
 # Completed
 
-[Play Here] [https://aktiangco.github.io/RR-react-a-mole/]
+- [Play Here] [https://aktiangco.github.io/RR-react-a-mole/]
 
 ## ACTIVITY: RR-react-a-mole
 
