@@ -18,6 +18,7 @@ const App = () => {
         <MoleContainer key={i} setScore={setScore} score={score}/>
       )
     }
+    
     return (
       // to append hills inside a div
       <div>
@@ -28,6 +29,7 @@ const App = () => {
   return (
     <div className="App">
       <h1>React a Mole</h1>
+    
       {/* to return the method */}
       {score}
       {createMoleHill()}
